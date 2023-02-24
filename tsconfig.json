@@ -18,7 +18,9 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "react-jsx",
+    // Sendo essa a baseUrl, a url padrão que a gente vai querer importar alguma coisa
+    "baseUrl": "SRC"
   },
   "include": [
     "src"
